@@ -58,7 +58,6 @@ print(content.dict_phone)
 # url = 'https://www.wildberries.ru/catalog/0/'\    # запрос поиска для wildberries
 #     'search.aspx?search='+search+'&xsubject=515&sort=rate'
 # print(url)
-print()
 
 html_path = 'Wildberries.html'
 content = scrape_wildberries(html_path)
